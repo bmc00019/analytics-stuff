@@ -56,7 +56,6 @@ $c_optParams = array(
 $sessions_by_country = $service->data_ga->get($ids,$c_start_date,$c_end_date,$c_metrics,$c_optParams);
 
 
-
 // $mts = array_pop($mobile_tablet_sessions);
 
 echo "<pre>";
